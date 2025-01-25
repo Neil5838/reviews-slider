@@ -1,0 +1,152 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #262626; */
+    background-image: url('https://img.freepik.com/free-vector/pastel-ombre-background-pink-purple_53876-120750.jpg?t=st=1737819339~exp=1737822939~hmac=048d914d4d7c0690872a28a7e7dcc553cc7f6b4328568fe1d683bca8c6da5dc9&w=900');
+    /* color: white; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: "Archivo", serif;
+}
+
+header {
+    /* border: 1px solid yellow; */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+header h2 {
+    font-family: "Amatic SC", serif;
+    font-size: 2.75rem;
+    font-weight: 900;
+}
+
+header div {
+    background-color: gray;
+    height: 4px;
+    max-width: 200px;
+    margin: 12px auto;
+}
+
+/* #slide {
+    max-width: 500px;
+    height: 300px;
+    background-color: red;
+} */
+
+.review-container {
+    /* border: 2px solid red; */
+    max-width: 1168px;
+    margin: auto;
+}
+
+#article {
+    max-width: 65%;
+    margin: auto;
+    text-align: center;
+}
+
+.img-container {
+    border: 4px solid #fff;
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    margin: auto;
+    box-shadow: 2px 3px 5px #a2a2a2;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.text-contents {
+    margin-top: 22px;
+}
+
+.employee {
+    font-size: 1.5rem;
+}
+
+.post {
+    font-size: 1rem;
+    margin: 6px 0px;
+    color: rgb(94, 94, 94);
+    letter-spacing: 1.6px;
+}
+
+.reviews {
+    /* border: 2px solid red; */
+    margin-top: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttons button {
+    border: none;
+    background-color: #7272722e;
+    color: white;
+    /* padding: 10px; */
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #72727245;
+
+}
+
+.buttons button:active {
+    background-color: #97979745;
+}
+
+.fa-circle {
+    font-size: 0.4rem;
+}
+
+
+@media (max-width: 767px) {
+    #article {
+        max-width: 80%;
+    }
+
+    header {
+        padding: 40px 20px;
+    }
+
+    header h2 {
+        font-size: 2.45rem;
+    }
+    
+}
+
+@media (max-width: 368px) {
+    #article {
+        max-width: 85%;
+    }
+}
