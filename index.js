@@ -1,47 +1,48 @@
 const employees = [
-  {
-    img: "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/WM2A4916-1352_thumb.jpg",
-    name: "Mira Agarwal",
-    post: "Software Engineer",
-    reviews:
-      "Mira has a strong background in full-stack development and specializes in building scalable web applications. She is known for her attention to detail and commitment to delivering high-quality code.",
-  },
-  {
-    img: "https://randomuser.me/api/portraits/men/45.jpg",
-    name: "Rohan Verma",
-    post: "Project Manager",
-    reviews:
-      "Rohan is an experienced project manager who ensures seamless coordination across teams. His leadership skills and ability to meet tight deadlines have been invaluable to the company.",
-  },
-  {
-    img: "https://randomuser.me/api/portraits/women/33.jpg",
-    name: "Anjali Shah",
-    post: "UI/UX Designer",
-    reviews:
-      "Anjali is a creative designer with expertise in crafting user-friendly interfaces. Her designs enhance user experience while aligning perfectly with client requirements.",
-  },
-  {
-    img: "https://randomuser.me/api/portraits/men/29.jpg",
-    name: "Karan Singh",
-    post: "Data Analyst",
-    reviews:
-      "Karan's data-driven insights help the company make informed decisions. His analytical skills and proficiency with visualization tools have been a key asset to the team.",
-  },
-  {
-    img: "https://randomuser.me/api/portraits/women/40.jpg",
-    name: "Priya Nair",
-    post: "HR Specialist",
-    reviews:
-      "Priya handles recruitment, employee engagement, and policy implementation with great professionalism. She plays a vital role in maintaining a positive work environment.",
-  },
-  {
-    img: "https://randomuser.me/api/portraits/men/51.jpg",
-    name: "Arjun Mehta",
-    post: "DevOps Engineer",
-    reviews:
-      "Arjun is a problem-solver who ensures smooth deployment pipelines and infrastructure management. His expertise in automation has significantly improved operational efficiency.",
-  }
-];
+    {
+      img: "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/WM2A4916-1352_thumb.jpg",
+      name: "Mira Agarwal",
+      post: "Software Engineer",
+      reviews:
+        "Working here has been a rewarding experience. The company fosters a culture of innovation and provides ample opportunities for professional growth. I appreciate the collaborative environment and supportive management.",
+    },
+    {
+      img: "https://randomuser.me/api/portraits/men/45.jpg",
+      name: "Rohan Verma",
+      post: "Project Manager",
+      reviews:
+        "This company truly values its employees. The leadership team is approachable, and the work-life balance is fantastic. I’ve had the chance to lead challenging projects and grow as a professional.",
+    },
+    {
+      img: "https://randomuser.me/api/portraits/women/33.jpg",
+      name: "Anjali Shah",
+      post: "UI/UX Designer",
+      reviews:
+        "I love how the company encourages creativity and innovation. The team is highly talented, and everyone is committed to delivering the best results. It’s been a pleasure working here.",
+    },
+    {
+      img: "https://randomuser.me/api/portraits/men/29.jpg",
+      name: "Karan Singh",
+      post: "Data Analyst",
+      reviews:
+        "The organization provides excellent resources and support to excel in our roles. I value the focus on professional development and the inclusive work culture that encourages collaboration.",
+    },
+    {
+      img: "https://randomuser.me/api/portraits/women/40.jpg",
+      name: "Priya Nair",
+      post: "HR Specialist",
+      reviews:
+        "This is a company that truly cares about its employees. The positive work culture and emphasis on employee engagement make it a great place to work. It’s fulfilling to be part of such an amazing team.",
+    },
+    {
+      img: "https://randomuser.me/api/portraits/men/51.jpg",
+      name: "Arjun Mehta",
+      post: "DevOps Engineer",
+      reviews:
+        "The company’s commitment to staying ahead with technology is inspiring. I enjoy working in an environment that challenges me to improve and values my contributions to the team.",
+    }
+  ];
+  
 
 const profile = document.querySelector('.img');
 const employee = document.querySelector('.employee');
